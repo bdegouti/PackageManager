@@ -1,0 +1,18 @@
+running the app will open the "My Package Deliveries Tracker" Window.
+
+Displayed in the center will be a list of packages or, if empty, a message saying "no packages to show"
+this can be toggles between 3 states:
+1. All, which displays all packages
+2. Overdue, which displays packages that are undelivered and past their delivery date
+3. Upcoming, which displays packages that are undelivered but are not past their delivery date
+
+each package will have a "delivered" checkbox--this will toggle whether the package is delivered or not
+each package will have a remove button--this will remove the package from the list
+
+Clicking "Add New Package" will open the Add Package Window.
+All text and date fields will need to be filled out in order to proceed. Every numerical field will default to 0.
+Clicking Cancel will take the user back to the main window without adding the Package.
+
+exiting the main window normally will save the packages and package states to JSON. Opening the window will
+automatically check for the JSON file, and load it if it exists.
+
